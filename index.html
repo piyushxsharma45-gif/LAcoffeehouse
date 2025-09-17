@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA Coffee House - Premium Coffee Experience in Indore</title>
+    <meta name="description" content="LA Coffee House in Indore offers premium coffee, artisanal brewing, and a cozy atmosphere. Experience the finest cappuccino, americano, and specialty drinks.">
+    <meta name="keywords" content="coffee shop Indore, LA Coffee House, cappuccino, americano, specialty coffee, premium coffee, cafe Indore">
+    <meta name="author" content="LA Coffee House">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="LA Coffee House - Premium Coffee Experience in Indore">
+    <meta property="og:description" content="Experience the finest coffee in Indore at LA Coffee House. Premium cappuccino, americano, and specialty drinks in a cozy atmosphere.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lacoffeehouse-indore.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%238B4513'><path d='M2 21h18v-2H2v2zm1.45-8H7v4c0 1.1.9 2 2 2s2-.9 2-2v-4h3.55c1.1 0 2-.9 2-2s-.9-2-2-2H11V9c0-1.1-.9-2-2-2s-2 .9-2 2v2H3.45c-1.1 0-2 .9-2 2s.9 2 2 2z'/></svg>">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <i class="fas fa-coffee"></i>
+                <span>LA Coffee House</span>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#menu" class="nav__link">Menu</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#gallery" class="nav__link">Gallery</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Home -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Welcome to <span class="text-accent">LA Coffee House</span>
+                    </h1>
+                    <p class="home__description">
+                        Experience the perfect blend of tradition and innovation in every cup. 
+                        Located in the heart of Indore, we serve premium coffee crafted with passion and precision.
+                    </p>
+                    <div class="home__buttons">
+                        <a href="#menu" class="button button--primary">
+                            <i class="fas fa-coffee"></i>
+                            View Menu
+                        </a>
+                        <a href="#contact" class="button button--secondary">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Visit Us
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="home__images">
+                    <div class="home__coffee-cup">
+                        <div class="coffee-steam">
+                            <div class="steam steam1"></div>
+                            <div class="steam steam2"></div>
+                            <div class="steam steam3"></div>
+                        </div>
+                        <div class="coffee-cup-svg">
+                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="coffeeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#D2691E;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <!-- Coffee Cup -->
+                                <ellipse cx="100" cy="170" rx="60" ry="8" fill="#8B4513" opacity="0.3"/>
+                                <rect x="60" y="80" width="80" height="90" rx="8" fill="url(#coffeeGradient)"/>
+                                <rect x="65" y="85" width="70" height="20" rx="4" fill="#3E2723"/>
+                                <!-- Handle -->
+                                <ellipse cx="155" cy="120" rx="15" ry="25" fill="none" stroke="#8B4513" stroke-width="8"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="home__scroll">
+                <a href="#about" class="home__scroll-button button--flex">
+                    <i class="fas fa-mouse"></i>
+                    <span class="home__scroll-name">Scroll down</span>
+                    <i class="fas fa-arrow-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <span class="section__subtitle">Discover</span>
+                    <h2 class="section__title about__title">
+                        Our Coffee Story
+                    </h2>
+                    <p class="about__description">
+                        At LA Coffee House, we believe that great coffee brings people together. 
+                        Since our establishment in Indore, we've been dedicated to sourcing the 
+                        finest beans and perfecting our craft to deliver an exceptional experience 
+                        in every cup.
+                    </p>
+                    
+                    <div class="about__details">
+                        <div class="about__details-content">
+                            <div class="about__details-icon">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                            <div>
+                                <h3 class="about__details-title">Premium Quality</h3>
+                                <span class="about__details-subtitle">Ethically sourced beans from the best coffee regions</span>
+                            </div>
+                        </div>
+                        
+                        <div class="about__details-content">
+                            <div class="about__details-icon">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <div>
+                                <h3 class="about__details-title">Expert Roasting</h3>
+                                <span class="about__details-subtitle">Artisanal roasting techniques for perfect flavor</span>
+                            </div>
+                        </div>
+                        
+                        <div class="about__details-content">
+                            <div class="about__details-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div>
+                                <h3 class="about__details-title">Made with Love</h3>
+                                <span class="about__details-subtitle">Every cup crafted with passion and care</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <div class="about__img-content">
+                            <h3>15+ Years</h3>
+                            <p>Coffee Excellence</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu -->
+        <section class="menu section" id="menu">
+            <span class="section__subtitle">Discover</span>
+            <h2 class="section__title">Our Special Menu</h2>
+            
+            <div class="menu__container container grid">
+                <div class="menu__content">
+                    <div class="menu__card">
+                        <div class="menu__card-img">
+                            <i class="fas fa-coffee menu__card-icon"></i>
+                        </div>
+                        <h3 class="menu__card-name">Cappuccino</h3>
+                        <p class="menu__card-description">
+                            Rich espresso with steamed milk and velvety foam
+                        </p>
+                        <span class="menu__card-price">₹120</span>
+                        <div class="menu__card-button">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="menu__card">
+                        <div class="menu__card-img">
+                            <i class="fas fa-coffee menu__card-icon"></i>
+                        </div>
+                        <h3 class="menu__card-name">Americano</h3>
+                        <p class="menu__card-description">
+                            Classic black coffee with hot water and rich espresso
+                        </p>
+                        <span class="menu__card-price">₹100</span>
+                        <div class="menu__card-button">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="menu__card">
+                        <div class="menu__card-img">
+                            <i class="fas fa-coffee menu__card-icon"></i>
+                        </div>
+                        <h3 class="menu__card-name">Latte</h3>
+                        <p class="menu__card-description">
+                            Smooth espresso with steamed milk and light foam
+                        </p>
+                        <span class="menu__card-price">₹130</span>
+                        <div class="menu__card-button">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="menu__card">
+                        <div class="menu__card-img">
+                            <i class="fas fa-snowflake menu__card-icon"></i>
+                        </div>
+                        <h3 class="menu__card-name">Iced Coffee</h3>
+                        <p class="menu__card-description">
+                            Refreshing cold brew with ice and cream
+                        </p>
+                        <span class="menu__card-price">₹140</span>
+                        <div class="menu__card-button">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="menu__card">
+                        <div class="menu__card-img">
+                            <i class="fas fa-coffee menu__card-icon"></i>
+                        </div>
+                        <h3 class="menu__card-name">Espresso</h3>
+                        <p class="menu__card-description">
+                            Pure, concentrated coffee shot for true connoisseurs
+                        </p>
+                        <span class="menu__card-price">₹80</span>
+                        <div class="menu__card-button">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="menu__card">
+                        <div class="menu__card-img">
+                            <i class="fas fa-coffee menu__card-icon"></i>
+                        </div>
+                        <h3 class="menu__card-name">Mocha</h3>
+                        <p class="menu__card-description">
+                            Perfect blend of espresso, chocolate, and steamed milk
+                        </p>
+                        <span class="menu__card-price">₹150</span>
+                        <div class="menu__card-button">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section class="gallery section" id="gallery">
+            <span class="section__subtitle">Experience</span>
+            <h2 class="section__title">Our Coffee Gallery</h2>
+            
+            <div class="gallery__container container">
+                <div class="gallery__content grid">
+                    <div class="gallery__img gallery__img-1">
+                        <div class="gallery__overlay">
+                            <h3>Artisan Brewing</h3>
+                            <p>Watch our skilled baristas craft your perfect cup</p>
+                        </div>
+                    </div>
+                    <div class="gallery__img gallery__img-2">
+                        <div class="gallery__overlay">
+                            <h3>Cozy Atmosphere</h3>
+                            <p>Relax in our warm and inviting space</p>
+                        </div>
+                    </div>
+                    <div class="gallery__img gallery__img-3">
+                        <div class="gallery__overlay">
+                            <h3>Fresh Pastries</h3>
+                            <p>Complement your coffee with our baked goods</p>
+                        </div>
+                    </div>
+                    <div class="gallery__img gallery__img-4">
+                        <div class="gallery__overlay">
+                            <h3>Premium Beans</h3>
+                            <p>Sourced from the finest coffee growing regions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Get in touch</span>
+            <h2 class="section__title">Contact Us</h2>
+            
+            <div class="contact__container container grid">
+                <div class="contact__data">
+                    <div class="contact__information">
+                        <div class="contact__info">
+                            <div class="contact__info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h3 class="contact__info-title">Location</h3>
+                                <span class="contact__info-subtitle">Vijay Nagar, Indore, Madhya Pradesh 452010</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__info">
+                            <div class="contact__info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h3 class="contact__info-title">Call Us</h3>
+                                <span class="contact__info-subtitle">+91 98765 43210</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__info">
+                            <div class="contact__info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h3 class="contact__info-title">Email</h3>
+                                <span class="contact__info-subtitle">hello@lacoffeehouse.com</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__info">
+                            <div class="contact__info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h3 class="contact__info-title">Working Hours</h3>
+                                <span class="contact__info-subtitle">Mon - Sun: 7:00 AM - 11:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <form action="#" class="contact__form">
+                    <div class="contact__form-div">
+                        <label class="contact__form-tag">Name</label>
+                        <input type="text" placeholder="Insert your name" class="contact__form-input">
+                    </div>
+                    
+                    <div class="contact__form-div">
+                        <label class="contact__form-tag">Mail</label>
+                        <input type="email" placeholder="Insert your email" class="contact__form-input">
+                    </div>
+                    
+                    <div class="contact__form-div contact__form-area">
+                        <label class="contact__form-tag">Message</label>
+                        <textarea cols="30" rows="10" placeholder="Write your message" class="contact__form-input"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="button button--primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <i class="fas fa-coffee"></i>
+                    <span>LA Coffee House</span>
+                </div>
+                <p class="footer__description">
+                    Experience the perfect blend of tradition and innovation in every cup. 
+                    Located in the heart of Indore.
+                </p>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="footer__social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="footer__social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="footer__social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer__content">
+                <h3 class="footer__title">Quick Links</h3>
+                <ul class="footer__links">
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#about" class="footer__link">About</a></li>
+                    <li><a href="#menu" class="footer__link">Menu</a></li>
+                    <li><a href="#contact" class="footer__link">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer__content">
+                <h3 class="footer__title">Coffee</h3>
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Cappuccino</a></li>
+                    <li><a href="#" class="footer__link">Americano</a></li>
+                    <li><a href="#" class="footer__link">Latte</a></li>
+                    <li><a href="#" class="footer__link">Espresso</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer__content">
+                <h3 class="footer__title">Information</h3>
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Privacy Policy</a></li>
+                    <li><a href="#" class="footer__link">Terms of Service</a></li>
+                    <li><a href="#" class="footer__link">Careers</a></li>
+                    <li><a href="#" class="footer__link">Support</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer__copy">
+            <p>&copy; 2024 LA Coffee House. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="app.js"></script>
+</body>
+</html>
